@@ -1,11 +1,16 @@
 body {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color: hsl(217, 54%, 11%);
-    padding-top: 5%;
+    /* padding-top: 5%; */
+    
+    
     
 }
-
 main {
+    margin-top: 5em;
+}
+
+.container {
     width: 16em;
     border-radius: 1em;
     margin: auto;
