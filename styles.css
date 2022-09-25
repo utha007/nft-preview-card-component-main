@@ -1,71 +1,98 @@
-body{
+body {
     box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+    padding-top: 5%;
     
 }
 
-main{
+main {
     width: 16em;
-    border-radius: 0.5em;
+    border-radius: 1em;
     margin: auto;
     padding: 1em;
     background-color: hsl(216, 50%, 16%);
-    position: relative;
-    top: 1em;
-}
-.image>img{
-   width: 16em;
-   border-radius: 0.5em;
-   margin: auto;
-   margin-bottom: 1em;
     
 }
-p, heading{
-    
+
+.image>img {
+    width: 16em;
+    border-radius: 0.5em;
+    margin: auto;
+    margin-bottom: 1em;
+
+}
+
+p,
+heading {
+
     font-family: 'Outfit', sans-serif;
 }
 
-heading{
+heading {
     font-weight: 600;
     color: hsl(0, 0%, 100%);
     font-size: 18px;
 
 }
-.text p{
+
+.text p {
     font-weight: 300;
-    color:hsl(215, 51%, 70%);
+    color: hsl(215, 51%, 70%);
 }
-.text{
+
+.text {
     text-align: justify;
 }
-.text p{
+
+.text p {
     font-size: 16px;
 }
-.info{
+
+.info {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     gap: 0.5em;
-    
+
 }
-hr{
-    color: hsl(215, 32%, 27%);
-    background-color: hsl(215, 32%, 27%);
+
+hr {
+    border: 0.0625em solid hsl(215, 32%, 27%);
+}
+
+.value {
+    color: hsl(178, 100%, 50%);
+    display: inline;
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    display: inline;
 }
 .creator{
     display: flex;
-    align-items: baseline;
-    gap: 0.125em;
-}
-p img{
-    border: 0.125em solid white;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    align-self: center;
-    gap: 1em;
-}
-p .name{
-    font-weight: 400;
-    color: hsl(0, 0%, 100%);
+    
 }
 
+.creator img {
+    width: 1.5em;
+    height: 1.5em;
+    border: 0.0625em solid white;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    
+}
+
+.name {
+    display: inline;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    
+
+}
+
+.name p {
+    display: inline;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
